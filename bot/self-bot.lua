@@ -224,9 +224,13 @@ function create_config( )
     "savefile",
     "groupmanager",
     "on-off",
-    "solid"
+    "solid",
+    "time",
+    "time2",
+    "time3",
+    "hashtag"
     },
-    sudo_users = {350057145,132221010,tonumber(our_id)},--Sudo users
+    sudo_users = {111334847},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[]],
     help_text_realm = [[]],
@@ -238,7 +242,7 @@ function create_config( )
 end
 
 function on_our_id (id)
-  our_id = id
+  our_id = 111334847
 end
 
 function on_user_update (user, what)
